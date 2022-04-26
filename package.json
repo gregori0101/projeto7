@@ -1,5 +1,5 @@
 {
-  "name": "Automatizando-chorium",
+  "name": "automatizando-chorium",
   "version": "1.0.0",
   "description": "Uma demonstração do potêncial de automação de navegador utilizando puppeteer e nodejs",
   "main": "index.js",
@@ -20,5 +20,6 @@
   "dependencies": {
     "crawler": "^1.2.1",
     "puppeteer": "^2.0.0"
-  }
+  },
+  "devDependencies": {}
 }
