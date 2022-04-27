@@ -1,7 +1,19 @@
 const puppeteer = require('puppeteer');
-console.log('bem vindo ao bot conversor');
+const port = process.env.POT || 3000;
+
+const express = require('express')
+const app = express()
+
+app.get('/', (req, res) => res.send('alguma coisa..'))
+
+app.listen(port, () => {
+  console.log('bem vindo ao bot conversor')
+
+});
+
+
 const senha =  '270616';
-const cpf =  '00747691208';
+const cpf =  '00747691207';
 var rep = '1';
 
 
